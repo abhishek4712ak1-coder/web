@@ -1,0 +1,9 @@
+const SectionTitle = ({ eyebrow, title, description }) => (
+  <div className="section-heading">
+    {eyebrow && <span className="eyebrow">{eyebrow}</span>}
+    <h2>{title}</h2>
+    {description && <p>{description}</p>}
+  </div>
+);
+
+export default SectionTitle;
