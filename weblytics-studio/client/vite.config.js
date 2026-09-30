@@ -8,7 +8,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: "https://web-gbbl.onrender.com,
+        target: "https://web-gbbl.onrender.com",
         changeOrigin: true,
         secure: false,
       },
